@@ -1,0 +1,27 @@
+{
+  "name": "upstat-js",
+  "version": "0.1.0",
+  "description": "Error tracking and log monitoring SDK for Node.js — by UpStat",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "upstat",
+    "monitoring",
+    "error-tracking",
+    "logs",
+    "nodejs"
+  ],
+  "author": "UpStat",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "typescript": "^5.4.5"
+  }
+}
